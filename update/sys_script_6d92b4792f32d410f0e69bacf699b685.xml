@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_441625_prj_track_time_worked</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Calculate hours</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var tc = current.timecard;
+	var total = 0;
+	var bill = 0;
+	var noBill = 0;
+	var mon = 0;
+	var tue = 0;
+	var wed = 0;
+	var thu = 0;
+	var fri = 0;
+	var sat = 0;
+	var sun = 0;
+
+	var grTw = new GlideRecord('x_441625_prj_track_time_worked');
+	grTw.addQuery('timecard', tc);
+	grTw.query();
+	while (grTw.next()) {
+		total = total + grTw.hours;
+		if (grTw.billable == true) {
+			bill = bill + grTw.hours;
+		} else {
+			noBill = noBill + grTw.hours;
+		}
+		var gdt = new GlideDateTime(grTw.date);
+		gdt = gdt.getDayOfWeekUTC();		
+		if (gdt == '1') {
+			mon = mon + grTw.hours;
+		}
+		if (gdt == '2') {
+			tue = tue + grTw.hours;
+		}
+		if (gdt == '3') {
+			wed = wed + grTw.hours;
+		}
+		if (gdt == '4') {
+			thu = thu + grTw.hours;
+		}
+		if (gdt == '5') {
+			fri = fri + grTw.hours;
+		}
+		if (gdt == '6') {
+			sat = sat + grTw.hours;
+		}
+		if (gdt == '7'){
+			sun = sun + grTw.hours;
+		}
+	}
+
+	var grTc = new GlideRecord('x_441625_prj_track_timecard');
+	grTc.addQuery('sys_id', tc);
+	grTc.query();
+	if (grTc.next()) {
+		grTc.total_hours = total;
+		grTc.billable_hours = bill;
+		grTc.non_billable_hours = noBill;
+		grTc.monday = mon;
+		grTc.tuesday = tue;
+		grTc.wednesday = wed;
+		grTc.thursday = thu;
+		grTc.friday = fri;
+		grTc.saturday = sat;
+		grTc.sunday = sun;
+		grTc.update();
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-23 14:41:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6d92b4792f32d410f0e69bacf699b685</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Calculate hours</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_script_6d92b4792f32d410f0e69bacf699b685</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-23 16:37:57</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=6d92b4792f32d410f0e69bacf699b685"/>
+</record_update>

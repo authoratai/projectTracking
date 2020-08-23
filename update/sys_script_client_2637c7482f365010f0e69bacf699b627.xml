@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>start_date</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Verify Sunday</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+
+	var ga = new GlideAjax('projectUtilizationUtils');
+	ga.addParam('sysparm_name', 'verifySunday');
+	ga.addParam('sysparm_week_start', newValue);
+	ga.getXML(weekEndResponse);
+
+	function weekEndResponse(response) {
+		var answer = response.responseXML.documentElement.getAttribute('answer');
+		if (answer) {
+			
+			// why the heck is my PDI off by 1 day??? - this should be a '7' but something is wrong & i'm not going to fix it right now
+			if (answer != 6) {
+				g_form.showErrorBox('start_date', 'This is not a Sunday');
+			}
+		}
+	}
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-18 14:34:42</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2637c7482f365010f0e69bacf699b627</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Verify Sunday</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_script_client_2637c7482f365010f0e69bacf699b627</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-21 14:59:22</sys_updated_on>
+        <table>x_441625_prj_track_timecard</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_layer">
+    <sys_report_layer action="DELETE">
+        <aggregate>SUM</aggregate>
+        <aggregation_source>no_override</aggregation_source>
+        <allow_data_label_overlap>false</allow_data_label_overlap>
+        <bar_unstack>false</bar_unstack>
+        <color display_value="UI14 Green Lighter">2c36c9b3d7332100fa6c0c12ce61030f</color>
+        <color_palette display_value="Blues light to dark (5)">b22671cdd7500200b96d45a3ce6103ee</color_palette>
+        <colors/>
+        <compute_percent>aggregate</compute_percent>
+        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <field/>
+        <filter table="x_441625_prj_track_allocation">timecard.start_dateRELATIVEGT@dayofweek@ago@45<item endquery="false" field="timecard.start_date" goto="false" newquery="false" operator="RELATIVE" or="false" value="GT@dayofweek@ago@45"/>
+        </filter>
+        <import_table/>
+        <interval>week</interval>
+        <list_ui_view/>
+        <report display_value="Weekly Hours">bf961e752fb6d410f0e69bacf699b609</report>
+        <report_source/>
+        <sequence>1</sequence>
+        <series_name_text>Allocation</series_name_text>
+        <set_color>one_color</set_color>
+        <show_2nd_y_axis>false</show_2nd_y_axis>
+        <show_chart_data_label>false</show_chart_data_label>
+        <show_data_label_position_middle>false</show_data_label_position_middle>
+        <show_marker>false</show_marker>
+        <source_type>table</source_type>
+        <style_config/>
+        <sumfield>hours_allocated</sumfield>
+        <sys_class_name>sys_report_layer</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-23 21:41:39</sys_created_on>
+        <sys_id>aa5912792fb6d410f0e69bacf699b65f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Allocation</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_report_layer_aa5912792fb6d410f0e69bacf699b65f</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-23 21:43:35</sys_updated_on>
+        <table>x_441625_prj_track_allocation</table>
+        <trend_field>timecard.start_date</trend_field>
+        <type>area</type>
+        <use_null_in_trend>false</use_null_in_trend>
+        <y_axis_from/>
+        <y_axis_title/>
+        <y_axis_to/>
+    </sys_report_layer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sys_report_layer_aa5912792fb6d410f0e69bacf699b65f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_layer"><sys_report_layer action="INSERT_OR_UPDATE"><aggregate>SUM</aggregate><aggregation_source>no_override</aggregation_source><allow_data_label_overlap>false</allow_data_label_overlap><bar_unstack>false</bar_unstack><color display_value="UI14 Green Lighter">2c36c9b3d7332100fa6c0c12ce61030f</color><color_palette display_value="Blues light to dark (5)">b22671cdd7500200b96d45a3ce6103ee</color_palette><colors/><compute_percent>aggregate</compute_percent><custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config><field/><filter table="x_441625_prj_track_allocation">timecard.start_dateRELATIVEGT@dayofweek@ago@45<item endquery="false" field="timecard.start_date" goto="false" newquery="false" operator="RELATIVE" or="false" value="GT@dayofweek@ago@45"/></filter><import_table/><interval>week</interval><list_ui_view/><report display_value="Weekly Hours">bf961e752fb6d410f0e69bacf699b609</report><report_source/><sequence>1</sequence><series_name_text>Allocation</series_name_text><set_color>one_color</set_color><show_2nd_y_axis>false</show_2nd_y_axis><show_chart_data_label>false</show_chart_data_label><show_data_label_position_middle>false</show_data_label_position_middle><show_marker>false</show_marker><source_type>table</source_type><style_config/><sumfield>hours_allocated</sumfield><sys_class_name>sys_report_layer</sys_class_name><sys_created_by>sean</sys_created_by><sys_created_on>2020-08-23 21:41:39</sys_created_on><sys_id>aa5912792fb6d410f0e69bacf699b65f</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Allocation</sys_name><sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package><sys_policy/><sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope><sys_update_name>sys_report_layer_aa5912792fb6d410f0e69bacf699b65f</sys_update_name><sys_updated_by>sean</sys_updated_by><sys_updated_on>2020-08-23 21:43:35</sys_updated_on><table>x_441625_prj_track_allocation</table><trend_field>timecard.start_date</trend_field><type>area</type><use_null_in_trend>false</use_null_in_trend><y_axis_from/><y_axis_title/><y_axis_to/></sys_report_layer></record_update>]]></payload>
+        <payload_hash>-712240797</payload_hash>
+        <record_name>Allocation</record_name>
+        <reverted_from/>
+        <source>4b1f25b32f621010f0e69bacf699b6ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-23 21:43:35</sys_created_on>
+        <sys_id>bec95e792fb6d410f0e69bacf699b6de</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1741d46d4fd0000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-23 21:43:35</sys_updated_on>
+        <type>Report Layer</type>
+        <update_guid>b6c95e7996b6d410c34f6afd2fa01bde</update_guid>
+        <update_guid_history>b6c95e7996b6d410c34f6afd2fa01bde:-712240797,0f895a3974b6d410d019491588f28afd:378648912,2e5912794bb6d410bbf9ec3fe6677262:-2127227317</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-23 21:47:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_report_layer">sys_report_layer</sys_db_object>
+        <sys_id>211d629ecf9147ffa163fe21d755aa29</sys_id>
+        <sys_metadata>aa5912792fb6d410f0e69bacf699b65f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Allocation</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_scope_delete display_value="">029a6542721344c4906b918aff265ee4</sys_scope_delete>
+        <sys_update_name>sys_report_layer_aa5912792fb6d410f0e69bacf699b65f</sys_update_name>
+        <sys_update_version display_value="sys_report_layer_aa5912792fb6d410f0e69bacf699b65f">bec95e792fb6d410f0e69bacf699b6de</sys_update_version>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-23 21:47:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

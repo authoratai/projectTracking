@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>week_start</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Set default end date</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+		
+	var weekStart = g_form.getValue('week_start');
+	alert('(onLoad) var weekStart = ' + weekStart);
+	
+	var ga = new GlideAjax('projectUtilizationUtils');
+	ga.addParam('sysparm_name', 'getWeekEnd');
+	ga.addParam('sysparm_week_start', weekStart);
+	ga.getXML(weekEndResponse);
+
+	function weekEndResponse(response) {
+		var answer = JSON.parse(response.responseXML.documentElement.getAttribute('answer'));
+		if (answer) {
+			g_form.setValue('week_end', answer);     
+		}
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-17 20:42:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>3ea153fb2fa61010f0e69bacf699b60b</sys_id>
+        <sys_mod_count>25</sys_mod_count>
+        <sys_name>Set default end date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_script_client_3ea153fb2fa61010f0e69bacf699b60b</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-18 13:48:14</sys_updated_on>
+        <table>x_441625_prj_track_allocation</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sys_script_client_3ea153fb2fa61010f0e69bacf699b60b</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;week_start&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Set default end date&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+		
+	var weekStart = g_form.getValue('week_start');
+	alert('(onLoad) var weekStart = ' + weekStart);
+	
+	var ga = new GlideAjax('projectUtilizationUtils');
+	ga.addParam('sysparm_name', 'getWeekEnd');
+	ga.addParam('sysparm_week_start', weekStart);
+	ga.getXML(weekEndResponse);
+
+	function weekEndResponse(response) {
+		var answer = JSON.parse(response.responseXML.documentElement.getAttribute('answer'));
+		if (answer) {
+			g_form.setValue('week_end', answer);     
+		}
+	}
+	
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sean&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-17 20:42:49&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;3ea153fb2fa61010f0e69bacf699b60b&lt;/sys_id&gt;&lt;sys_mod_count&gt;25&lt;/sys_mod_count&gt;&lt;sys_name&gt;Set default end date&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Project Tracking" source="x_441625_prj_track"&gt;f2b95f9f2fc91850f0e69bacf699b606&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project Tracking"&gt;f2b95f9f2fc91850f0e69bacf699b606&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_3ea153fb2fa61010f0e69bacf699b60b&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sean&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-18 13:48:14&lt;/sys_updated_on&gt;&lt;table&gt;x_441625_prj_track_allocation&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-1881379070</payload_hash>
+        <record_name>Set default end date</record_name>
+        <reverted_from/>
+        <source>4b1f25b32f621010f0e69bacf699b6ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-18 13:48:14</sys_created_on>
+        <sys_id>f20db2cc2ff25010f0e69bacf699b698</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17401d3d6ce0000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-18 13:48:14</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>fa0db2ccaef25010aafdd61056c1cc97</update_guid>
+        <update_guid_history>fa0db2ccaef25010aafdd61056c1cc97:-1881379070,c55cfe8c9ff250109a9d662737949825:907236748,7a4c768c92f2501093c07ae6db62189f:1163595009,ed7b3e0cdff25010c28ed6160209cbcd:421784516,1e5ab24cbef250105a25c39c1ca4cb35:-191170291,c4b9360c30f25010b017dd2e55bd9a93:-1617991907,de89760c4bf25010cd281f1f875b92bb:779184370,49793e8810f2501045c50a7642ecbacb:1803392259,110bd3f3bae6101041864cf88e965608:-992036189,c97a93f39ae61010e8cd3d7395829023:1070505222,13f997b344e610104d5e7e1100396cc7:2003020499,f7d91bb3c6e61010d7476a819f0e107b:-992036189,08d95fb3e7e61010c3ba52bb1f04744a:-1122740968,58b91fb3bae61010b1ae003ce120964a:-992036189,a349d3b3cbe610109742bc6b64e88712:-176899150,d3091f732de610103c75a08fb97653dd:188239940,e7b85773ade61010c0ec110ce57a4030:1927654069,f0b857737be61010c399d14538937089:50027629,3a871fbfc3a610105e1df86184e248c5:1927654069,cd17177f3da610107d226faccc6f97f5:-1655598883,70059f3f94a61010f4a9a96e3716e589:-2126864933,48049f3f44a61010523513149480e0ba:1848433683,1a93173f3da610101997e5b424a4e60a:1515657219,6813dffb49a610103c9dd5a78ee0ca8c:-206384586,2692df7bfca6101076dcbb3767c7c8f6:1362778198,da52dbbb53a6101019cc6b6815346f8c:2019575221</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-18 13:50:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>029a80f7bd604480813320c16d839000</sys_id>
+        <sys_metadata>3ea153fb2fa61010f0e69bacf699b60b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Set default end date</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_parent display_value="Allocation">807c979f2f8d1850f0e69bacf699b605</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_scope_delete display_value="">029a6542721344c4906b918aff265ee4</sys_scope_delete>
+        <sys_update_name>sys_script_client_3ea153fb2fa61010f0e69bacf699b60b</sys_update_name>
+        <sys_update_version display_value="sys_script_client_3ea153fb2fa61010f0e69bacf699b60b">f20db2cc2ff25010f0e69bacf699b698</sys_update_version>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-18 13:50:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

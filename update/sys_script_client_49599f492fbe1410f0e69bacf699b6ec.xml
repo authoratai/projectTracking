@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>timecard</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Update start and end dates</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+
+	g_form.getReference('timecard', populateDates);
+}
+
+function populateDates(tc) { 
+	g_form.setValue('week_start', tc.start_date);
+	g_form.setValue('week_end', tc.end_date);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-21 18:25:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>49599f492fbe1410f0e69bacf699b6ec</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Update start and end dates</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_script_client_49599f492fbe1410f0e69bacf699b6ec</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-22 19:17:45</sys_updated_on>
+        <table>x_441625_prj_track_allocation</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

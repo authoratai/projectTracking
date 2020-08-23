@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="d613a6892ffa1410f0e69bacf699b696" sys_domain="global" table="x_441625_prj_track_timecard" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2020-08-21 14:28:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1e13a6892ffa1410f0e69bacf699b697</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_441625_prj_track_timecard" name="x_441625_prj_track_timecard" sys_domain="global" view="Default view">d613a6892ffa1410f0e69bacf699b696</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_timecard" sys_domain="global" view="Default view">3da22a892ffa1410f0e69bacf699b6b6</sys_ui_section>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2020-08-21 14:28:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2020-08-21 14:28:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>561326c92ffa1410f0e69bacf699b6b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_441625_prj_track_timecard" name="x_441625_prj_track_timecard" sys_domain="global" view="Default view">d613a6892ffa1410f0e69bacf699b696</sys_ui_form>
+            <sys_ui_section caption="Totals" display_value="Totals" name="x_441625_prj_track_timecard" sys_domain="global" view="Default view">5613a6892ffa1410f0e69bacf699b698</sys_ui_section>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2020-08-21 14:28:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2020-08-21 14:30:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86736e892ffa1410f0e69bacf699b6b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_441625_prj_track_timecard" name="x_441625_prj_track_timecard" sys_domain="global" view="Default view">d613a6892ffa1410f0e69bacf699b696</sys_ui_form>
+            <sys_ui_section caption="Days" display_value="Days" name="x_441625_prj_track_timecard" sys_domain="global" view="Default view">c2736e892ffa1410f0e69bacf699b6ae</sys_ui_section>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2020-08-21 14:30:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_441625_prj_track_timecard</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2020-08-21 14:28:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d613a6892ffa1410f0e69bacf699b696</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_441625_prj_track_timecard</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+            <sys_update_name>sys_ui_form_sections_d613a6892ffa1410f0e69bacf699b696</sys_update_name>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2020-08-21 14:28:47</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

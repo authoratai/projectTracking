@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_layer">
+    <sys_report_layer action="INSERT_OR_UPDATE">
+        <aggregate>SUM</aggregate>
+        <aggregation_source>no_override</aggregation_source>
+        <allow_data_label_overlap>false</allow_data_label_overlap>
+        <bar_unstack>false</bar_unstack>
+        <color display_value="NY green0">263fa77f9f5c73001bb9baac757fcf40</color>
+        <color_palette display_value="Greens dark to light (5)">a0f81f19d7100200b96d45a3ce61039f</color_palette>
+        <colors/>
+        <compute_percent>aggregate</compute_percent>
+        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <field/>
+        <filter table="x_441625_prj_track_timecard">start_dateRELATIVEGT@dayofweek@ago@45<item endquery="false" field="start_date" goto="false" newquery="false" operator="RELATIVE" or="false" value="GT@dayofweek@ago@45"/>
+        </filter>
+        <import_table/>
+        <interval>week</interval>
+        <list_ui_view/>
+        <report display_value="Weekly Hours">bf961e752fb6d410f0e69bacf699b609</report>
+        <report_source/>
+        <sequence>2</sequence>
+        <series_name_text>Allocation</series_name_text>
+        <set_color>one_color</set_color>
+        <show_2nd_y_axis>false</show_2nd_y_axis>
+        <show_chart_data_label>false</show_chart_data_label>
+        <show_data_label_position_middle>false</show_data_label_position_middle>
+        <show_marker>false</show_marker>
+        <source_type>table</source_type>
+        <style_config/>
+        <sumfield>allocation</sumfield>
+        <sys_class_name>sys_report_layer</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-23 21:51:42</sys_created_on>
+        <sys_id>b5abd6f92fb6d410f0e69bacf699b63f</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Allocation</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_report_layer_b5abd6f92fb6d410f0e69bacf699b63f</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-23 21:57:58</sys_updated_on>
+        <table>x_441625_prj_track_timecard</table>
+        <trend_field>start_date</trend_field>
+        <type>area</type>
+        <use_null_in_trend>false</use_null_in_trend>
+        <y_axis_from/>
+        <y_axis_title/>
+        <y_axis_to/>
+    </sys_report_layer>
+</record_update>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_macro">
+    <sys_ui_macro action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>general</category>
+        <description/>
+        <media_type/>
+        <name>timecard_completion_percentage</name>
+        <scoped_name>x_441625_prj_track_timecard_completion_percentage</scoped_name>
+        <sys_class_name>sys_ui_macro</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-21 21:21:34</sys_created_on>
+        <sys_id>37b0c0112f725410f0e69bacf699b6fd</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>timecard_completion_percentage</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_ui_macro_37b0c0112f725410f0e69bacf699b6fd</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-23 15:17:08</sys_updated_on>
+        <xml><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<g2:evaluate>
+		var percentageAcknowledge = 0;
+		var isThereResolution = true;
+
+		var arr = [];
+		var width, bg_color, f_color;		
+		var val = current.completion;		
+
+		if (val > 100)
+		width = 100;
+		else
+		width = val;
+
+		if (val &lt; 40) {
+			bg_color = 'maroon';
+			f_color = 'white';
+		} else if (val >= 40 ${AND} val &lt; 55) {
+			bg_color = 'tomato';
+			f_color = '#343D47';
+		} else if (val >= 55 ${AND} val &lt; 70) {
+			bg_color = '#FF9900';
+			f_color = '#343D47';
+		} else if (val >= 70 ${AND} val &lt; 85) {
+			bg_color = '#ffff00';
+			f_color = '#343D47';
+		} else if (val >= 85 ${AND} val &lt; 100) {
+			bg_color = 'lightgreen';
+			f_color = '#343D47';
+		} else if (val >= 100) {
+			bg_color = '#00A000';
+			f_color = 'white';
+		}
+		
+		arr.push({'name': 'Timecard completion','value': val, 'width':width, 'bg_color':bg_color, 'f_color':f_color})
+
+	</g2:evaluate>
+
+	<td>
+		<div class="container-fluid">			
+			<j2:forEach items="$[arr]" var="jvar_item">  
+				<g2:evaluate jelly="true">  
+					var name = jelly.jvar_item.name;  
+					var value = jelly.jvar_item.value;
+					var width = jelly.jvar_item.width;
+					var bg_color = jelly.jvar_item.bg_color;
+					var f_color = jelly.jvar_item.f_color;
+				</g2:evaluate> 
+				<div class="row" style="overflow:hidden">
+					<div class=" col-xs-12 col-md-3 col-lg-4 control-label" style="padding-top:0px">
+						<h5 style="margin:0px">$[name]</h5>
+					</div>
+					<div class ="col-xs-10 col-sm-9 col-md-6 col-lg-5" style="padding-right: 0">
+						<div class="progress" style="height:100%; border-color:#bdc0c4">
+							<!--<div class="progress-bar progress-bar-info active progress-bar-striped" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:$[width]%; background-color:$[bg_color]; color: $[f_color]">-->
+							<div class="progress-bar progress-bar-info active" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:$[width]%; background-color:$[bg_color]; color: $[f_color]">
+								$[value]%
+							</div>
+						</div>
+					</div>
+				</div>
+			</j2:forEach>
+		</div>
+	</td>
+</j:jelly>]]></xml>
+    </sys_ui_macro>
+</record_update>

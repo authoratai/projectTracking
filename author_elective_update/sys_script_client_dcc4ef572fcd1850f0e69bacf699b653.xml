@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>title</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>update display name - title</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+
+	if(g_form.getValue('title') != '') {
+		if(g_form.getValue('customer') != '') {
+			if(g_form.getValue('code') != '') {
+				g_form.setValue('display_name', g_form.getDisplayValue('customer') + ' | ' + g_form.getValue('title') + ' | ' + g_form.getValue('code'));
+			} else {
+				g_form.setValue('display_name', g_form.getDisplayValue('customer') + ' | ' + g_form.getValue('title'));
+			}
+		} else {
+			g_form.setValue('display_name', g_form.getValue('title'));
+		}
+	} else {
+		g_form.setValue('display_name', '');
+	}
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-06-02 19:12:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>dcc4ef572fcd1850f0e69bacf699b653</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>update display name - title</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_script_client_dcc4ef572fcd1850f0e69bacf699b653</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-06-02 19:12:05</sys_updated_on>
+        <table>x_441625_prj_track_project</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sys_script_client_dcc4ef572fcd1850f0e69bacf699b653</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;title&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;update display name - title&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+	if (isLoading || newValue === '') {
+		return;
+	}
+
+	if(g_form.getValue('title') != '') {
+		if(g_form.getValue('customer') != '') {
+			if(g_form.getValue('code') != '') {
+				g_form.setValue('display_name', g_form.getDisplayValue('customer') + ' | ' + g_form.getValue('title') + ' | ' + g_form.getValue('code'));
+			} else {
+				g_form.setValue('display_name', g_form.getDisplayValue('customer') + ' | ' + g_form.getValue('title'));
+			}
+		} else {
+			g_form.setValue('display_name', g_form.getValue('title'));
+		}
+	} else {
+		g_form.setValue('display_name', '');
+	}
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sean&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-06-02 19:12:05&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;dcc4ef572fcd1850f0e69bacf699b653&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;update display name - title&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Project Tracking" source="x_441625_prj_track"&gt;f2b95f9f2fc91850f0e69bacf699b606&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project Tracking"&gt;f2b95f9f2fc91850f0e69bacf699b606&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_dcc4ef572fcd1850f0e69bacf699b653&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sean&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-06-02 19:12:05&lt;/sys_updated_on&gt;&lt;table&gt;x_441625_prj_track_project&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-260407835</payload_hash>
+        <record_name>update display name - title</record_name>
+        <reverted_from/>
+        <source>beb993db2f8d1850f0e69bacf699b636</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-06-02 19:12:05</sys_created_on>
+        <sys_id>5cc4ef572fcd1850f0e69bacf699b656</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1727672aa6c0000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-06-02 19:12:05</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>94c4ef573bcd1850823cf6ca96ddff56</update_guid>
+        <update_guid_history>94c4ef573bcd1850823cf6ca96ddff56:-260407835</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-17 19:18:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>194a5cf2c32c4d248cb60a82a8da8151</sys_id>
+        <sys_metadata>dcc4ef572fcd1850f0e69bacf699b653</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>update display name - title</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_parent display_value="Project">950bd71f2f8d1850f0e69bacf699b66e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_scope_delete display_value="">029a6542721344c4906b918aff265ee4</sys_scope_delete>
+        <sys_update_name>sys_script_client_dcc4ef572fcd1850f0e69bacf699b653</sys_update_name>
+        <sys_update_version display_value="sys_script_client_dcc4ef572fcd1850f0e69bacf699b653">5cc4ef572fcd1850f0e69bacf699b656</sys_update_version>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-17 19:18:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>sys_created_on</field>
+        <global>true</global>
+        <isolate_script>false</isolate_script>
+        <messages/>
+        <name>Populate start and end dates</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	g_form.addInfoMessage('tc.start_date = ' + tc.start_date);
+	/*
+	var tc = g_form.getReference('timecard');
+	g_form.setValue('week_start', tc.start_date);
+	g_form.addInfoMessage('tc.start_date = ' + tc.start_date);
+	g_form.setValue('week_end', tc.end_date);
+	*/
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-21 18:24:07</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2617df492fbe1410f0e69bacf699b618</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>Populate start and end dates</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_script_client_2617df492fbe1410f0e69bacf699b618</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-21 19:07:04</sys_updated_on>
+        <table>x_441625_prj_track_allocation</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sys_script_client_2617df492fbe1410f0e69bacf699b618</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;sys_created_on&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Populate start and end dates&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onLoad() {
+	g_form.addInfoMessage('tc.start_date = ' + tc.start_date);
+	/*
+	var tc = g_form.getReference('timecard');
+	g_form.setValue('week_start', tc.start_date);
+	g_form.addInfoMessage('tc.start_date = ' + tc.start_date);
+	g_form.setValue('week_end', tc.end_date);
+	*/
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sean&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-08-21 18:24:07&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2617df492fbe1410f0e69bacf699b618&lt;/sys_id&gt;&lt;sys_mod_count&gt;12&lt;/sys_mod_count&gt;&lt;sys_name&gt;Populate start and end dates&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Project Tracking" source="x_441625_prj_track"&gt;f2b95f9f2fc91850f0e69bacf699b606&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project Tracking"&gt;f2b95f9f2fc91850f0e69bacf699b606&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_2617df492fbe1410f0e69bacf699b618&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sean&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-08-21 19:07:04&lt;/sys_updated_on&gt;&lt;table&gt;x_441625_prj_track_allocation&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>884775992</payload_hash>
+        <record_name>Populate start and end dates</record_name>
+        <reverted_from/>
+        <source>4b1f25b32f621010f0e69bacf699b6ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-21 19:07:04</sys_created_on>
+        <sys_id>6ac2a3452ffe1410f0e69bacf699b6b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>174126ad0d60000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-21 19:07:04</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>62c2a345defe1410c275a44bb44983b5</update_guid>
+        <update_guid_history>62c2a345defe1410c275a44bb44983b5:884775992,4eb22345cbfe1410abe8bf9f5d8f0c63:96902670,b572a7056dfe141077f54b1de5a04688:-1845318367,d252ab0565fe1410235f25d24414f026:-1719773172,8d22a70559fe14104335dcb9f1ae5743:2066627322,73e1a30546fe1410f12ee2a5599281d2:-1321100087,12d16b81a8fe1410f3e89bb0e1d58126:2131151913,e3202b8149fe1410e2b8b90029ad53de:-1967484536,7eff578118fe1410c8ec24b311deeb5f:-373297668,7fdf5fc9f2be1410140f1a570d115664:-433991091,088f934134fe141065352e2ef6431057:-671795746,ae7e9f019ffe14103934e4b8f9239f2d:-25117809,6df8d3896bbe14107314c20b206d89c6:-1241255337</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-21 19:07:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>45e5c9bdd4e745b887e4ee05a8059d90</sys_id>
+        <sys_metadata>2617df492fbe1410f0e69bacf699b618</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Populate start and end dates</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_parent display_value="Allocation">807c979f2f8d1850f0e69bacf699b605</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_scope_delete display_value="">029a6542721344c4906b918aff265ee4</sys_scope_delete>
+        <sys_update_name>sys_script_client_2617df492fbe1410f0e69bacf699b618</sys_update_name>
+        <sys_update_version display_value="sys_script_client_2617df492fbe1410f0e69bacf699b618">6ac2a3452ffe1410f0e69bacf699b6b5</sys_update_version>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-21 19:07:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
