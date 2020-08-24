@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Allocation" max_length="40" name="x_441625_prj_track_allocation" sizeclass="34" type="collection">
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:maroon;40:tomato;55:#FF9900;70:#ffff00;85:lightgreen;100:#00A000" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var alloc = current.hours_allocated;&#13;&#10;&#9;var hrs = current.hours_worked;&#13;&#10;&#9;var pct = 0;&#13;&#10;&#9;pct = (hrs * 100) / alloc;&#9;&#13;&#10;&#9;return pct;&#13;&#10;&#13;&#10;})(current);" label="Completion" max_length="15" name="completion" type="percent_complete" virtual="true"/>
+        <element label="Hours allocated" max_length="20" name="hours_allocated" type="decimal"/>
+        <element label="Hours worked" max_length="20" name="hours_worked" type="decimal"/>
+        <element label="Project" max_length="32" name="project" reference="x_441625_prj_track_project" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="Timecard" max_length="32" name="timecard" reference="x_441625_prj_track_timecard" type="reference"/>
+        <element label="Week end" max_length="40" name="week_end" type="glide_date"/>
+        <element label="Week start" max_length="40" name="week_start" type="glide_date"/>
+        <index name="index">
+            <element name="project"/>
+        </index>
+        <index name="index2">
+            <element name="timecard"/>
+        </index>
+    </element>
+</database>

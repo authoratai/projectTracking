@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="name" label="Name" language="en" table="x_441625_prj_track_customer">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>name</element>
+            <help/>
+            <hint/>
+            <label>Name</label>
+            <language>en</language>
+            <name>x_441625_prj_track_customer</name>
+            <plural>Names</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2020-06-02 18:31:26</sys_created_on>
+            <sys_id>b47b935f2f8d1850f0e69bacf699b614</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Name</sys_name>
+            <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+            <sys_update_name>sys_documentation_x_441625_prj_track_customer_name_en</sys_update_name>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2020-06-02 18:31:26</sys_updated_on>
+            <u_field_explanation/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
