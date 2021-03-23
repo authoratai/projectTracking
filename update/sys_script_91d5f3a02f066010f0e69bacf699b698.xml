@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_441625_prj_track_time_worked</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Populate bonus data</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	var dt = current.date;
+	var gdt = new GlideDateTime(dt);
+	var yr = gdt.getYearLocalTime();
+	var mo = gdt.getMonthLocalTime();
+	var months = ['January','February','March','April','May','June','July','August','September','October','November','December'];
+	var moName = months[mo - 1];
+	var qtr;
+	if (mo === 1 || mo === 2 || mo === 3) qtr = 1;
+	if (mo === 4 || mo === 5 || mo === 6) qtr = 2;
+	if (mo === 7 || mo === 8 || mo === 9) qtr = 3;
+	if (mo === 10 || mo === 11 || mo === 12) qtr = 4;
+	var todayHoliday = 0;
+	var grFind = new GlideRecord("x_441625_prj_track_bonus_reporting");
+	grFind.addQuery("date", current.date);
+	grFind.query();
+	var cnt = grFind.getRowCount();
+	while (grFind.next()) {
+		todayHoliday += grFind.getValue('holidays');
+	}
+	if (cnt > 0) {
+		var grUpdate = new GlideRecord("x_441625_prj_track_bonus_reporting");
+		grUpdate.initialize();
+		grUpdate.setValue('date', dt);
+		var holUpdate = 0;
+		if (todayHoliday == 0) {
+			if (current.project.title == 'Holiday') {
+				holUpdate = 1;
+			}
+		}
+		grUpdate.setValue('holidays', holUpdate);
+		grUpdate.setValue('actual_work_days', 0);
+		grUpdate.setValue('year', yr);
+		grUpdate.setValue('month_sort', mo);
+		grUpdate.setValue('month', moName);
+		grUpdate.setValue('quarter', qtr);
+		grUpdate.insert();
+	}
+	if (cnt == 0) {
+		var grAdd = new GlideRecord("x_441625_prj_track_bonus_reporting");
+		grAdd.initialize();
+		grAdd.setValue('date', dt);
+		var holAdd = 0;
+		if (current.project.title == 'Holiday') holAdd = 1;
+		grAdd.setValue('holidays', holAdd);
+		grAdd.setValue('actual_work_days', 1);
+		grAdd.setValue('year', yr);
+		grAdd.setValue('month_sort', mo);
+		grAdd.setValue('month', moName);
+		grAdd.setValue('quarter', qtr);
+		grAdd.insert();
+	}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-01-28 21:10:08</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>91d5f3a02f066010f0e69bacf699b698</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Populate bonus data</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_script_91d5f3a02f066010f0e69bacf699b698</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-03-15 14:46:36</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=91d5f3a02f066010f0e69bacf699b698"/>
+</record_update>

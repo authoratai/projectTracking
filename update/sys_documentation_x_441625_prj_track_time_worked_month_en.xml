@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="month" label="Month" language="en" table="x_441625_prj_track_time_worked">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>month</element>
+            <help/>
+            <hint/>
+            <label>Month</label>
+            <language>en</language>
+            <name>x_441625_prj_track_time_worked</name>
+            <plural>Months</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2021-01-15 14:55:43</sys_created_on>
+            <sys_id>4efae7d42f392410f0e69bacf699b609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Month</sys_name>
+            <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+            <sys_update_name>sys_documentation_x_441625_prj_track_time_worked_month_en</sys_update_name>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2021-01-15 14:55:43</sys_updated_on>
+            <u_field_explanation/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

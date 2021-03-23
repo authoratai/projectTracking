@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="pa_dimensions">
+    <pa_dimensions action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="pa_manual_breakdowns">breakdown=0c55ee792ff22010f0e69bacf699b6c5<item display_table="pa_breakdowns" display_value="Month" endquery="false" field="breakdown" goto="false" newquery="false" operator="=" or="false" value="0c55ee792ff22010f0e69bacf699b6c5"/>
+        </conditions>
+        <description/>
+        <empty_value/>
+        <facts_table>pa_manual_breakdowns</facts_table>
+        <field>sys_id</field>
+        <manual_breakdown>0c55ee792ff22010f0e69bacf699b6c5</manual_breakdown>
+        <name>Month</name>
+        <security_type>1</security_type>
+        <sys_class_name>pa_dimensions</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-03-10 18:45:12</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>4a55ee792ff22010f0e69bacf699b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Month</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>pa_dimensions_4a55ee792ff22010f0e69bacf699b6b7</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-03-10 18:45:12</sys_updated_on>
+    </pa_dimensions>
+    <sys_translated_text action="delete_multiple" query="documentkey=4a55ee792ff22010f0e69bacf699b6b7"/>
+</record_update>

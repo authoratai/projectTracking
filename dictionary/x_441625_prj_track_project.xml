@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Project" max_length="40" name="x_441625_prj_track_project" sizeclass="8" type="collection">
+    <element label="Project" max_length="40" name="x_441625_prj_track_project" sizeclass="12" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
         <element default="true" label="Billable" max_length="40" name="billable" type="boolean"/>
         <element label="Code" max_length="15" name="code" type="string"/>

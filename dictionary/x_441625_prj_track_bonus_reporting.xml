@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Bonus Reporting" max_length="40" name="x_441625_prj_track_bonus_reporting" sizeclass="7" type="collection">
+        <element label="Billable hours" max_length="3" name="billable_hours" type="integer"/>
+        <element label="Holidays" max_length="2" name="holidays" type="integer"/>
+        <element label="Month" max_length="10" name="month" type="string"/>
+        <element label="Month sort" max_length="2" name="month_sort" type="string"/>
+        <element label="Potential hours" max_length="3" name="potential_hours" type="integer"/>
+        <element label="PTO days" max_length="2" name="pto_days" type="integer"/>
+        <element label="Quarter" max_length="1" name="quarter" type="integer"/>
+        <element label="Trend date" max_length="40" name="trend_date" type="glide_date"/>
+        <element label="Year" max_length="4" name="year" type="string"/>
+    </element>
+</database>

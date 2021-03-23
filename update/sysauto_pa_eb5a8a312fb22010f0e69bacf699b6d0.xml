@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysauto_pa">
+    <sysauto_pa action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <benchmarking>false</benchmarking>
+        <business_calendar/>
+        <collect>scores_text</collect>
+        <condition/>
+        <conditional>false</conditional>
+        <description/>
+        <entered_time/>
+        <kill_job>false</kill_job>
+        <name>monthly bonus data</name>
+        <offset/>
+        <offset_type/>
+        <run_as display_value="sean">cf3d75401b1a00107f81da49cc4bcb47</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2021-03-10 16:47:21</run_start>
+        <run_time>1970-01-01 11:30:00</run_time>
+        <run_type>monthly</run_type>
+        <score_fixed_end>20301231</score_fixed_end>
+        <score_fixed_start>20200801</score_fixed_start>
+        <score_operator>fixed</score_operator>
+        <score_relative_end/>
+        <score_relative_end_interval/>
+        <score_relative_start/>
+        <score_relative_start_interval/>
+        <sys_class_name>sysauto_pa</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-03-10 16:48:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eb5a8a312fb22010f0e69bacf699b6d0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>monthly bonus data</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sysauto_pa_eb5a8a312fb22010f0e69bacf699b6d0</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-03-10 18:18:50</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_pa>
+    <sys_translated_text action="delete_multiple" query="documentkey=eb5a8a312fb22010f0e69bacf699b6d0"/>
+</record_update>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Specifies the first day of the week used in filters (Monday = 1, Sunday = 7)</description>
+        <ignore_cache>false</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_441625_prj_track.glide.ui.filter.first_day_of_week</name>
+        <read_roles/>
+        <suffix>glide.ui.filter.first_day_of_week</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-08-25 13:18:29</sys_created_on>
+        <sys_id>7059b2562f765810f0e69bacf699b6d6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_441625_prj_track.glide.ui.filter.first_day_of_week</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_properties_7059b2562f765810f0e69bacf699b6d6</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-08-25 13:34:35</sys_updated_on>
+        <type>integer</type>
+        <value>7</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=7059b2562f765810f0e69bacf699b6d6"/>
+</record_update>

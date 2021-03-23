@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_441625_prj_track.New Script Include | 2020-11-03 | 20:12</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description>This Script Include is designed to keep my personal DEV instance (dev90392) alive 24 × 7.</description>
+        <name>New Script Include | 2020-11-03 | 20:12</name>
+        <script><![CDATA[generateIncidentData(3, 10);
+function generateIncidentData(max_incidents_per_day, number_of_days_back){
+	var user = new GlideRecord('sys_user');
+	user.addQuery('active=true');
+	user.query();
+	var user_array = [];
+	while(user.next()) {
+		user_array.push(user.sys_id.toString());
+	}
+	function getUser(){
+		return user_array[Math.round(Math.random()*(user_array.length-1))];
+	}
+	var service = new GlideRecord('cmdb_ci_service');
+	service.addQuery('parent=NULL^nameNOT LIKEtest^operational_status=1');
+	service.query();
+	while(service.next()) {		// Go back the number of days, one at a time
+		for(var day = 1; number_of_days_back >= day; day++){
+			// Generate a random number of tickets per day up to the max
+			var number_of_incidents = Math.floor((Math.random() * max_incidents_per_day) + 1);
+			for(var i = 1; number_of_incidents >= i; i++){
+				// Create the incident
+				var incident = new GlideRecord('incident');
+				incident.newRecord();
+				var random_user = getUser();
+				incident.caller_id = random_user;
+				incident.opened_by = random_user;
+				incident.cmdb_ci = service.sys_id;
+				incident.assignment_group = 'd625dccec0a8016700a222a0f7900d06';  // Service Desk
+				incident.short_description = randomLoadingMessage();
+				incident.opened_at = gs.daysAgo(day);
+				incident.setWorkflow(false);
+				incident.insert();
+			}
+		}
+	}
+	function randomLoadingMessage() {
+	    var lines = [
+	        'Locating the required gigapixels to render...',
+	        'Spinning up the hamster',
+	        'Shoveling coal into the server',
+	        'Are we there yet?',
+	        'Hang on a sec, I know your data is around here somewhere',
+	        'Searching for the Answer to Life, the Universe, and Everything',
+	        'Re-calibrating the internet',
+	        'Working on it... So, how are you?',
+	        'Please count to 100',
+	        'Doing something useful',
+	        'Prepare for awesomeness.',
+	        'Yes there really are magic elves with an abacus working frantically in here.',
+	        'Don\'t panic',
+	        'Deterministically simulating the future.',
+	        'Searching through billions of bits to find what you\'re looking for.',
+	        'Preparing for hyperspace jump',
+	        'Loading: one Mississippi... Loading: two Mississippi... Loading: three Mississippi...',
+	        'Waiting for the magic to happen',
+	        'Please wait while the punch tape loads',
+	        'The hamster is running as fast as it can, hold on a sec',
+	        'Giving it all I\'ve got',
+	        'It\'s around here somewhere ',
+	        'If you can see this I\'m still working on your request.',
+	        'Waiting for something in the server.',
+	        'This page brought to you by the Letter Q',
+	        'Firing up the flux capacitor',
+	        'Gotcha, boss! Going right at it!',
+	        'Searching for dragons',
+	        'Reassembling atoms',
+	        'Winding up the rubber band',
+	        'We\'re working on making this page load faster',
+	        'I spy something green',
+	    ];
+	    return lines[Math.round(Math.random()*(lines.length-1))];
+	}}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-11-03 01:12:09</sys_created_on>
+        <sys_id>1662383c2f182010f0e69bacf699b694</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Script Include | 2020-11-03 | 20:12</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_script_include_1662383c2f182010f0e69bacf699b694</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-11-03 01:12:09</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sys_script_include_1662383c2f182010f0e69bacf699b694</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_441625_prj_track.New Script Include | 2020-11-03 | 20:12&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;true&lt;/client_callable&gt;&lt;description&gt;This Script Include is designed to keep my personal DEV instance (dev90392) alive 24 × 7.&lt;/description&gt;&lt;name&gt;New Script Include | 2020-11-03 | 20:12&lt;/name&gt;&lt;script&gt;&lt;![CDATA[generateIncidentData(3, 10);
+function generateIncidentData(max_incidents_per_day, number_of_days_back){
+	var user = new GlideRecord('sys_user');
+	user.addQuery('active=true');
+	user.query();
+	var user_array = [];
+	while(user.next()) {
+		user_array.push(user.sys_id.toString());
+	}
+	function getUser(){
+		return user_array[Math.round(Math.random()*(user_array.length-1))];
+	}
+	var service = new GlideRecord('cmdb_ci_service');
+	service.addQuery('parent=NULL^nameNOT LIKEtest^operational_status=1');
+	service.query();
+	while(service.next()) {		// Go back the number of days, one at a time
+		for(var day = 1; number_of_days_back &gt;= day; day++){
+			// Generate a random number of tickets per day up to the max
+			var number_of_incidents = Math.floor((Math.random() * max_incidents_per_day) + 1);
+			for(var i = 1; number_of_incidents &gt;= i; i++){
+				// Create the incident
+				var incident = new GlideRecord('incident');
+				incident.newRecord();
+				var random_user = getUser();
+				incident.caller_id = random_user;
+				incident.opened_by = random_user;
+				incident.cmdb_ci = service.sys_id;
+				incident.assignment_group = 'd625dccec0a8016700a222a0f7900d06';  // Service Desk
+				incident.short_description = randomLoadingMessage();
+				incident.opened_at = gs.daysAgo(day);
+				incident.setWorkflow(false);
+				incident.insert();
+			}
+		}
+	}
+	function randomLoadingMessage() {
+	    var lines = [
+	        'Locating the required gigapixels to render...',
+	        'Spinning up the hamster',
+	        'Shoveling coal into the server',
+	        'Are we there yet?',
+	        'Hang on a sec, I know your data is around here somewhere',
+	        'Searching for the Answer to Life, the Universe, and Everything',
+	        'Re-calibrating the internet',
+	        'Working on it... So, how are you?',
+	        'Please count to 100',
+	        'Doing something useful',
+	        'Prepare for awesomeness.',
+	        'Yes there really are magic elves with an abacus working frantically in here.',
+	        'Don\'t panic',
+	        'Deterministically simulating the future.',
+	        'Searching through billions of bits to find what you\'re looking for.',
+	        'Preparing for hyperspace jump',
+	        'Loading: one Mississippi... Loading: two Mississippi... Loading: three Mississippi...',
+	        'Waiting for the magic to happen',
+	        'Please wait while the punch tape loads',
+	        'The hamster is running as fast as it can, hold on a sec',
+	        'Giving it all I\'ve got',
+	        'It\'s around here somewhere ',
+	        'If you can see this I\'m still working on your request.',
+	        'Waiting for something in the server.',
+	        'This page brought to you by the Letter Q',
+	        'Firing up the flux capacitor',
+	        'Gotcha, boss! Going right at it!',
+	        'Searching for dragons',
+	        'Reassembling atoms',
+	        'Winding up the rubber band',
+	        'We\'re working on making this page load faster',
+	        'I spy something green',
+	    ];
+	    return lines[Math.round(Math.random()*(lines.length-1))];
+	}}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;sean&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-11-03 01:12:09&lt;/sys_created_on&gt;&lt;sys_id&gt;1662383c2f182010f0e69bacf699b694&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;New Script Include | 2020-11-03 | 20:12&lt;/sys_name&gt;&lt;sys_package display_value="Project Tracking" source="x_441625_prj_track"&gt;f2b95f9f2fc91850f0e69bacf699b606&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Project Tracking"&gt;f2b95f9f2fc91850f0e69bacf699b606&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_1662383c2f182010f0e69bacf699b694&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;sean&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-11-03 01:12:09&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>200602060</payload_hash>
+        <record_name>New Script Include | 2020-11-03 | 20:12</record_name>
+        <reverted_from/>
+        <source>4b1f25b32f621010f0e69bacf699b6ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-11-03 01:12:09</sys_created_on>
+        <sys_id>5a62383c2f182010f0e69bacf699b699</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1758ba94bd60000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-11-03 01:12:09</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>9262383c82182010da993df2803c9399</update_guid>
+        <update_guid_history>9262383c82182010da993df2803c9399:200602060</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2020-11-03 05:12:10</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>50e67d78cd574c5ab9815136b2a65a79</sys_id>
+        <sys_metadata>1662383c2f182010f0e69bacf699b694</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Script Include | 2020-11-03 | 20:12</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_scope_delete display_value="">029a6542721344c4906b918aff265ee4</sys_scope_delete>
+        <sys_update_name>sys_script_include_1662383c2f182010f0e69bacf699b694</sys_update_name>
+        <sys_update_version display_value="sys_script_include_1662383c2f182010f0e69bacf699b694">5a62383c2f182010f0e69bacf699b699</sys_update_version>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2020-11-03 05:12:10</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

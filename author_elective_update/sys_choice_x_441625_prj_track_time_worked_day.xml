@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="day" table="x_441625_prj_track_time_worked" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>day</element>
+            <name>x_441625_prj_track_time_worked</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2020-08-25 13:09:03</sys_created_on>
+            <sys_id>99377a922f765810f0e69bacf699b609</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>day</sys_name>
+            <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+            <sys_update_name>sys_choice_x_441625_prj_track_time_worked_day</sys_update_name>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2020-08-25 13:09:03</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Monday</label>
+            <language>en</language>
+            <name>x_441625_prj_track_time_worked</name>
+            <sequence>1</sequence>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2020-08-25 13:09:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>16273e922f765810f0e69bacf699b60c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2020-08-25 13:09:03</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Tuesday</label>
+            <language>en</language>
+            <name>x_441625_prj_track_time_worked</name>
+            <sequence>2</sequence>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2020-08-25 13:09:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9337fe122f765810f0e69bacf699b6a2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2020-08-25 13:09:12</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Wednesday</label>
+            <language>en</language>
+            <name>x_441625_prj_track_time_worked</name>
+            <sequence>3</sequence>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2020-08-25 13:09:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3e47fe122f765810f0e69bacf699b69a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2020-08-25 13:09:26</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Thursday</label>
+            <language>en</language>
+            <name>x_441625_prj_track_time_worked</name>
+            <sequence>4</sequence>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2020-08-25 13:09:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6957b6922f765810f0e69bacf699b6de</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2020-08-25 13:09:37</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Friday</label>
+            <language>en</language>
+            <name>x_441625_prj_track_time_worked</name>
+            <sequence>5</sequence>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2020-08-25 13:09:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a757f6922f765810f0e69bacf699b650</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2020-08-25 13:09:46</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Saturday</label>
+            <language>en</language>
+            <name>x_441625_prj_track_time_worked</name>
+            <sequence>6</sequence>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2020-08-25 13:09:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b567fa922f765810f0e69bacf699b608</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2020-08-25 13:09:54</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>day</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sunday</label>
+            <language>en</language>
+            <name>x_441625_prj_track_time_worked</name>
+            <sequence>7</sequence>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2020-08-25 13:10:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c877fe122f765810f0e69bacf699b633</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2020-08-25 13:10:04</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

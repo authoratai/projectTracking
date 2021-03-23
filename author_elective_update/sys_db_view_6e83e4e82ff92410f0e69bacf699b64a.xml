@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view">
+    <sys_db_view action="DELETE">
+        <description/>
+        <label/>
+        <name>x_441625_prj_track_billable_hours_per_month</name>
+        <plural/>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-01-15 19:03:07</sys_created_on>
+        <sys_id>6e83e4e82ff92410f0e69bacf699b64a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_441625_prj_track_billable_hours_per_month</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_db_view_6e83e4e82ff92410f0e69bacf699b64a</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-01-15 19:03:07</sys_updated_on>
+    </sys_db_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</application>
+        <file_path/>
+        <instance_id>06346385dbcf7b4042b321c4059619f2</instance_id>
+        <instance_name>dev90392</instance_name>
+        <name>sys_db_view_6e83e4e82ff92410f0e69bacf699b64a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view"><sys_db_view action="INSERT_OR_UPDATE"><description/><label/><name>x_441625_prj_track_billable_hours_per_month</name><plural/><sys_class_name>sys_db_view</sys_class_name><sys_created_by>sean</sys_created_by><sys_created_on>2021-01-15 19:03:07</sys_created_on><sys_id>6e83e4e82ff92410f0e69bacf699b64a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_441625_prj_track_billable_hours_per_month</sys_name><sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package><sys_policy/><sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope><sys_update_name>sys_db_view_6e83e4e82ff92410f0e69bacf699b64a</sys_update_name><sys_updated_by>sean</sys_updated_by><sys_updated_on>2021-01-15 19:03:07</sys_updated_on></sys_db_view></record_update>]]></payload>
+        <payload_hash>834062504</payload_hash>
+        <record_name>x_441625_prj_track_billable_hours_per_month</record_name>
+        <reverted_from/>
+        <source>4b1f25b32f621010f0e69bacf699b6ea</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-01-15 19:03:07</sys_created_on>
+        <sys_id>469328e82ff92410f0e69bacf699b618</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>177076e08a60000001</sys_recorded_at>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-01-15 19:03:07</sys_updated_on>
+        <type>Database View</type>
+        <update_guid>4e9328e8adf92410c0645de5e3e8f917</update_guid>
+        <update_guid_history>4e9328e8adf92410c0645de5e3e8f917:834062504</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-01-15 19:06:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view">sys_db_view</sys_db_object>
+        <sys_id>30dca1656ebf4adf9a7931ab1db8ce31</sys_id>
+        <sys_metadata>6e83e4e82ff92410f0e69bacf699b64a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_441625_prj_track_billable_hours_per_month</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_scope_delete display_value="">029a6542721344c4906b918aff265ee4</sys_scope_delete>
+        <sys_update_name>sys_db_view_6e83e4e82ff92410f0e69bacf699b64a</sys_update_name>
+        <sys_update_version display_value="sys_db_view_6e83e4e82ff92410f0e69bacf699b64a">469328e82ff92410f0e69bacf699b618</sys_update_version>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-01-15 19:06:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

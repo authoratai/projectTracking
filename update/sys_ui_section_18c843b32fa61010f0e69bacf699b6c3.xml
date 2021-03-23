@@ -4,13 +4,13 @@
             <element>project</element>
             <position>0</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-23 13:23:51</sys_created_on>
-            <sys_id>2e6768fd2ffe9410f0e69bacf699b63d</sys_id>
+            <sys_created_on>2020-08-24 18:26:46</sys_created_on>
+            <sys_id>a556faca2fb61810f0e69bacf699b6a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_allocation" sys_domain="global" view="Default view">18c843b32fa61010f0e69bacf699b6c3</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-23 13:23:51</sys_updated_on>
+            <sys_updated_on>2020-08-24 18:26:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>hours_allocated</element>
             <position>1</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-23 13:23:51</sys_created_on>
-            <sys_id>ae6768fd2ffe9410f0e69bacf699b63d</sys_id>
+            <sys_created_on>2020-08-24 18:26:46</sys_created_on>
+            <sys_id>6d56faca2fb61810f0e69bacf699b6a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_allocation" sys_domain="global" view="Default view">18c843b32fa61010f0e69bacf699b6c3</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-23 13:23:51</sys_updated_on>
+            <sys_updated_on>2020-08-24 18:26:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>hours_worked</element>
             <position>2</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-23 13:23:51</sys_created_on>
-            <sys_id>226768fd2ffe9410f0e69bacf699b63e</sys_id>
+            <sys_created_on>2020-08-24 18:26:46</sys_created_on>
+            <sys_id>ed56faca2fb61810f0e69bacf699b6a6</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_allocation" sys_domain="global" view="Default view">18c843b32fa61010f0e69bacf699b6c3</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-23 13:23:51</sys_updated_on>
+            <sys_updated_on>2020-08-24 18:26:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-23 13:23:51</sys_created_on>
-            <sys_id>a26768fd2ffe9410f0e69bacf699b63e</sys_id>
+            <sys_created_on>2020-08-24 18:26:46</sys_created_on>
+            <sys_id>6156faca2fb61810f0e69bacf699b6a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_allocation" sys_domain="global" view="Default view">18c843b32fa61010f0e69bacf699b6c3</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-23 13:23:51</sys_updated_on>
+            <sys_updated_on>2020-08-24 18:26:46</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>timecard</element>
             <position>4</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-23 13:23:51</sys_created_on>
-            <sys_id>266768fd2ffe9410f0e69bacf699b63e</sys_id>
+            <sys_created_on>2020-08-24 18:26:46</sys_created_on>
+            <sys_id>e156faca2fb61810f0e69bacf699b6a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_allocation" sys_domain="global" view="Default view">18c843b32fa61010f0e69bacf699b6c3</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-23 13:23:51</sys_updated_on>
+            <sys_updated_on>2020-08-24 18:26:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>week_start</element>
             <position>5</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-23 13:23:51</sys_created_on>
-            <sys_id>a66768fd2ffe9410f0e69bacf699b63e</sys_id>
+            <sys_created_on>2020-08-24 18:26:46</sys_created_on>
+            <sys_id>6556faca2fb61810f0e69bacf699b6a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_allocation" sys_domain="global" view="Default view">18c843b32fa61010f0e69bacf699b6c3</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-23 13:23:51</sys_updated_on>
+            <sys_updated_on>2020-08-24 18:26:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,27 +88,13 @@
             <element>week_end</element>
             <position>6</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-23 13:23:51</sys_created_on>
-            <sys_id>2a6768fd2ffe9410f0e69bacf699b63e</sys_id>
+            <sys_created_on>2020-08-24 18:26:46</sys_created_on>
+            <sys_id>e556faca2fb61810f0e69bacf699b6a7</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_allocation" sys_domain="global" view="Default view">18c843b32fa61010f0e69bacf699b6c3</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-23 13:23:51</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>completion</element>
-            <position>7</position>
-            <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-23 22:04:08</sys_created_on>
-            <sys_id>bf7e1abd2fb6d410f0e69bacf699b690</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_allocation" sys_domain="global" view="Default view">18c843b32fa61010f0e69bacf699b6c3</sys_ui_section>
-            <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-23 22:04:08</sys_updated_on>
+            <sys_updated_on>2020-08-24 18:26:46</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

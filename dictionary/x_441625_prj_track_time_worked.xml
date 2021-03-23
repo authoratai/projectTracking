@@ -1,9 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Time Worked" max_length="40" name="x_441625_prj_track_time_worked" sizeclass="61" type="collection">
+    <element label="Time Worked" max_length="40" name="x_441625_prj_track_time_worked" sizeclass="331" type="collection">
         <element label="Billable" max_length="40" name="billable" type="boolean"/>
+        <element label="Comments" max_length="4000" name="comments" type="journal"/>
         <element default="javascript: new GlideDate();" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element choice="1" label="Day" max_length="40" name="day" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Monday" sequence="1" value="1"/>
+                <element inactive_on_update="false" label="Tuesday" sequence="2" value="2"/>
+                <element inactive_on_update="false" label="Wednesday" sequence="3" value="3"/>
+                <element inactive_on_update="false" label="Thursday" sequence="4" value="4"/>
+                <element inactive_on_update="false" label="Friday" sequence="5" value="5"/>
+                <element inactive_on_update="false" label="Saturday" sequence="6" value="6"/>
+                <element inactive_on_update="false" label="Sunday" sequence="7" value="7"/>
+            </choice>
+        </element>
         <element label="Hours" max_length="20" name="hours" type="decimal"/>
-        <element label="Project" max_length="32" name="project" reference="x_441625_prj_track_project" reference_qual="javascript: /*new projectUtilizationUtils().projectRefQual();*/&#13;&#10;" type="reference" use_reference_qualifier="advanced"/>
+        <element label="Month" max_length="15" name="month" type="string"/>
+        <element attributes="format=none" label="month integer" max_length="40" name="month_integer" type="integer"/>
+        <element label="Project" max_length="32" name="project" reference="x_441625_prj_track_project" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="Timecard" max_length="32" name="timecard" reference="x_441625_prj_track_timecard" type="reference"/>
         <index name="index">
             <element name="project"/>

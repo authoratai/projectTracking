@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_layer">
+    <sys_report_layer action="INSERT_OR_UPDATE">
+        <aggregate>SUM</aggregate>
+        <aggregation_source>no_override</aggregation_source>
+        <allow_data_label_overlap>false</allow_data_label_overlap>
+        <bar_unstack>false</bar_unstack>
+        <color display_value="Gainsboro">65b30286a9fe3dba00f4def0ac71431c</color>
+        <color_palette display_value="Blues light to dark (5)">b22671cdd7500200b96d45a3ce6103ee</color_palette>
+        <colors/>
+        <compute_percent>aggregate</compute_percent>
+        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <field/>
+        <filter table="x_441625_prj_track_bonus_reporting">trend_dateRELATIVEGT@quarter@ago@2<item endquery="false" field="trend_date" goto="false" newquery="false" operator="RELATIVE" or="false" value="GT@quarter@ago@2"/>
+        </filter>
+        <import_table/>
+        <interval>quarter</interval>
+        <list_ui_view/>
+        <report display_value="Bonus Snapshot">fc0c98602fb92410f0e69bacf699b67a</report>
+        <report_source/>
+        <sequence>1</sequence>
+        <series_name_text>Potential Hours</series_name_text>
+        <set_color>one_color</set_color>
+        <show_2nd_y_axis>false</show_2nd_y_axis>
+        <show_chart_data_label>false</show_chart_data_label>
+        <show_data_label_position_middle>false</show_data_label_position_middle>
+        <show_marker>false</show_marker>
+        <source_type>table</source_type>
+        <style_config/>
+        <sumfield>potential_hours</sumfield>
+        <sys_class_name>sys_report_layer</sys_class_name>
+        <sys_created_by>sean</sys_created_by>
+        <sys_created_on>2021-03-10 19:09:26</sys_created_on>
+        <sys_id>41ea2afd2ff22010f0e69bacf699b60c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Potential Hours</sys_name>
+        <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+        <sys_update_name>sys_report_layer_41ea2afd2ff22010f0e69bacf699b60c</sys_update_name>
+        <sys_updated_by>sean</sys_updated_by>
+        <sys_updated_on>2021-03-10 19:42:21</sys_updated_on>
+        <table>x_441625_prj_track_bonus_reporting</table>
+        <trend_field>trend_date</trend_field>
+        <type>line_bar</type>
+        <use_null_in_trend>false</use_null_in_trend>
+        <y_axis_from/>
+        <y_axis_title/>
+        <y_axis_to/>
+    </sys_report_layer>
+</record_update>
