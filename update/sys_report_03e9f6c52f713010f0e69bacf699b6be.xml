@@ -26,7 +26,7 @@
         <chart_title_y_position>0</chart_title_y_position>
         <chart_width>600</chart_width>
         <color display_value="Default Color">de699435d7033100b4964ebfae610331</color>
-        <color_palette display_value="Default UI14">aa558ab3d7732100fa6c0c12ce610377</color_palette>
+        <color_palette display_value="twoGrays">98fdb29a2f765810f0e69bacf699b6be</color_palette>
         <colors/>
         <column/>
         <compute_percent>aggregate</compute_percent>
@@ -45,15 +45,15 @@
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
-        <field_list>project,hours_worked,hours_allocated,completion</field_list>
-        <filter table="x_441625_prj_track_allocation">week_startONThis week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()<item endquery="false" field="week_start" goto="false" newquery="false" operator="ON" or="false" value="This week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()"/>
+        <field_list>year,quarter,month,billable_hours,potential_hours,pto_days,holidays,trend_date,sys_created_on,sys_created_by</field_list>
+        <filter table="x_441625_prj_track_bonus_reporting">trend_dateRELATIVEGT@dayofweek@ago@365<item endquery="false" field="trend_date" goto="false" newquery="false" operator="RELATIVE" or="false" value="GT@dayofweek@ago@365"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
         <group/>
         <import_table/>
-        <interval>year</interval>
+        <interval>date</interval>
         <is_published>false</is_published>
         <is_real_time>false</is_real_time>
         <is_scheduled>false</is_scheduled>
@@ -85,7 +85,7 @@
         <sc_stackby_variable_id/>
         <score_color display_value="Black">65b30218a9fe3dba0120df8611520d97</score_color>
         <series_name_text/>
-        <set_color>one_color</set_color>
+        <set_color>null</set_color>
         <show_chart_border>false</show_chart_border>
         <show_chart_data_label>false</show_chart_data_label>
         <show_chart_title>report</show_chart_title>
@@ -93,33 +93,33 @@
         <show_data_label_position_middle>false</show_data_label_position_middle>
         <show_empty>false</show_empty>
         <show_geographical_label>false</show_geographical_label>
-        <show_legend>true</show_legend>
+        <show_legend>false</show_legend>
         <show_legend_border>false</show_legend_border>
-        <show_marker>false</show_marker>
-        <show_zero>false</show_zero>
+        <show_marker>true</show_marker>
+        <show_zero>true</show_zero>
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
-        <sumfield>hours_allocated</sumfield>
+        <sumfield>pto_days</sumfield>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>sean</sys_created_by>
-        <sys_created_on>2020-08-23 21:14:01</sys_created_on>
-        <sys_id>3103de712fb6d410f0e69bacf699b6fb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Allocations This Week</sys_name>
+        <sys_created_on>2021-08-04 15:28:02</sys_created_on>
+        <sys_id>03e9f6c52f713010f0e69bacf699b6be</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>PTO Days - Rolling 12 Months</sys_name>
         <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
-        <sys_update_name>sys_report_3103de712fb6d410f0e69bacf699b6fb</sys_update_name>
+        <sys_update_name>sys_report_03e9f6c52f713010f0e69bacf699b6be</sys_update_name>
         <sys_updated_by>sean</sys_updated_by>
-        <sys_updated_on>2020-11-06 18:24:01</sys_updated_on>
-        <table>x_441625_prj_track_allocation</table>
-        <title>Allocations This Week</title>
+        <sys_updated_on>2021-08-04 15:28:02</sys_updated_on>
+        <table>x_441625_prj_track_bonus_reporting</table>
+        <title>PTO Days - Rolling 12 Months</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
         <trend_field/>
-        <type>list</type>
+        <type>single_score</type>
         <upper_limit/>
         <use_color_heatmap>false</use_color_heatmap>
         <use_null_in_trend>false</use_null_in_trend>

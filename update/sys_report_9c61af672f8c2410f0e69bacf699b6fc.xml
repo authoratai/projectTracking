@@ -31,7 +31,7 @@
         <column/>
         <compute_percent>aggregate</compute_percent>
         <content/>
-        <created_by_user display_value="sean">cf3d75401b1a00107f81da49cc4bcb47</created_by_user>
+        <created_by_user display_value="Sean Erickson">cf3d75401b1a00107f81da49cc4bcb47</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
         <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
@@ -105,16 +105,16 @@
         <sys_created_by>sean</sys_created_by>
         <sys_created_on>2020-10-30 16:44:11</sys_created_on>
         <sys_id>9c61af672f8c2410f0e69bacf699b6fc</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_name>12 Months Rolling PTO Days</sys_name>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>PTO Days Taken</sys_name>
         <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
         <sys_update_name>sys_report_9c61af672f8c2410f0e69bacf699b6fc</sys_update_name>
         <sys_updated_by>sean</sys_updated_by>
-        <sys_updated_on>2021-03-10 19:28:50</sys_updated_on>
+        <sys_updated_on>2021-08-24 13:47:31</sys_updated_on>
         <table>x_441625_prj_track_bonus_reporting</table>
-        <title>12 Months Rolling PTO Days</title>
+        <title>PTO Days Taken</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
@@ -146,13 +146,13 @@
         <y_axis_grid_width>1</y_axis_grid_width>
         <y_axis_label_bold>false</y_axis_label_bold>
         <y_axis_label_color/>
-        <y_axis_label_size>11</y_axis_label_size>
+        <y_axis_label_size/>
         <y_axis_label_tilt>0</y_axis_label_tilt>
         <y_axis_opposite>false</y_axis_opposite>
-        <y_axis_title/>
+        <y_axis_title>.</y_axis_title>
         <y_axis_title_bold>false</y_axis_title_bold>
         <y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
-        <y_axis_title_size>12</y_axis_title_size>
+        <y_axis_title_size>1</y_axis_title_size>
         <y_axis_to/>
     </sys_report>
 </record_update>

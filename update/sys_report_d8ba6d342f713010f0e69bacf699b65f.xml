@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
     <sys_report action="INSERT_OR_UPDATE">
         <additional_groupby/>
-        <aggregate>SUM</aggregate>
+        <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
         <allow_data_label_overlap>false</allow_data_label_overlap>
         <apply_alias>false</apply_alias>
@@ -45,8 +45,10 @@
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
         <field/>
-        <field_list>project,hours_worked,hours_allocated,completion</field_list>
-        <filter table="x_441625_prj_track_allocation">week_startONThis week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()<item endquery="false" field="week_start" goto="false" newquery="false" operator="ON" or="false" value="This week@javascript:gs.beginningOfThisWeek()@javascript:gs.endOfThisWeek()"/>
+        <field_list>month,quarter,target_percent</field_list>
+        <filter table="x_441625_prj_track_bonus_reporting">trend_dateRELATIVEGT@month@ago@4^ORDERBYDESCyear^ORDERBYDESCmonth_sort<item endquery="false" field="trend_date" goto="false" newquery="false" operator="RELATIVE" or="false" value="GT@month@ago@4"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="year"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBYDESC" or="false" value="month_sort"/>
         </filter>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
@@ -72,7 +74,7 @@
         <map_source/>
         <orderby_list/>
         <other_threshold>-2</other_threshold>
-        <others>false</others>
+        <others>true</others>
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
         <report_drilldown/>
@@ -100,21 +102,21 @@
         <source_type>table</source_type>
         <start_time/>
         <style_config/>
-        <sumfield>hours_allocated</sumfield>
+        <sumfield/>
         <sys_class_name>sys_report</sys_class_name>
         <sys_created_by>sean</sys_created_by>
-        <sys_created_on>2020-08-23 21:14:01</sys_created_on>
-        <sys_id>3103de712fb6d410f0e69bacf699b6fb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Allocations This Week</sys_name>
+        <sys_created_on>2021-08-03 15:03:22</sys_created_on>
+        <sys_id>d8ba6d342f713010f0e69bacf699b65f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Recent Bonus Targets</sys_name>
         <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
-        <sys_update_name>sys_report_3103de712fb6d410f0e69bacf699b6fb</sys_update_name>
+        <sys_update_name>sys_report_d8ba6d342f713010f0e69bacf699b65f</sys_update_name>
         <sys_updated_by>sean</sys_updated_by>
-        <sys_updated_on>2020-11-06 18:24:01</sys_updated_on>
-        <table>x_441625_prj_track_allocation</table>
-        <title>Allocations This Week</title>
+        <sys_updated_on>2021-08-03 15:05:51</sys_updated_on>
+        <table>x_441625_prj_track_bonus_reporting</table>
+        <title>Recent Bonus Targets</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>

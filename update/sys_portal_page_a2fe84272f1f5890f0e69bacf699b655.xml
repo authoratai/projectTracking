@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2021-03-23 16:09:05">
+<?xml version="1.0" encoding="UTF-8"?><record_update node_type="sys_portal_page" unload_date="2022-01-05 20:58:00">
     <sys_portal_page action="INSERT_OR_UPDATE">
         <layout/>
         <order/>
@@ -290,108 +290,6 @@
                 <dropzone/>
                 <offset/>
                 <page display_value="PA History">a2fe84272f1f5890f0e69bacf699b655</page>
-                <summary>12 Months Rolling PTO - Total Hours</summary>
-                <sys_created_by>sean</sys_created_by>
-                <sys_created_on>2020-10-30 16:55:43</sys_created_on>
-                <sys_id>5104636b2f8c2410f0e69bacf699b6db</sys_id>
-                <sys_mod_count>1</sys_mod_count>
-                <sys_updated_by>sean</sys_updated_by>
-                <sys_updated_on>2020-10-30 16:55:43</sys_updated_on>
-                <related_items_node>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>report_type</name>
-                        <portal_section display_value="Created 2020-10-30 12:55:43 PM">5104636b2f8c2410f0e69bacf699b6db</portal_section>
-                        <sys_created_by>sean</sys_created_by>
-                        <sys_created_on>2020-10-30 16:55:43</sys_created_on>
-                        <sys_id>1504636b2f8c2410f0e69bacf699b6dc</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>sean</sys_updated_by>
-                        <sys_updated_on>2020-10-30 16:55:43</sys_updated_on>
-                        <value>single_score</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>renderer</name>
-                        <portal_section display_value="Created 2020-10-30 12:55:43 PM">5104636b2f8c2410f0e69bacf699b6db</portal_section>
-                        <sys_created_by>sean</sys_created_by>
-                        <sys_created_on>2020-10-30 16:55:43</sys_created_on>
-                        <sys_id>1904636b2f8c2410f0e69bacf699b6db</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>sean</sys_updated_by>
-                        <sys_updated_on>2020-10-30 16:55:43</sys_updated_on>
-                        <value>com.glide.ui.portal.RenderReport</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_subscribe</name>
-                        <portal_section display_value="Created 2020-10-30 12:55:43 PM">5104636b2f8c2410f0e69bacf699b6db</portal_section>
-                        <sys_created_by>sean</sys_created_by>
-                        <sys_created_on>2020-10-30 16:55:43</sys_created_on>
-                        <sys_id>5104636b2f8c2410f0e69bacf699b6dc</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>sean</sys_updated_by>
-                        <sys_updated_on>2020-10-30 16:55:43</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>is_using_database_view</name>
-                        <portal_section display_value="Created 2020-10-30 12:55:43 PM">5104636b2f8c2410f0e69bacf699b6db</portal_section>
-                        <sys_created_by>sean</sys_created_by>
-                        <sys_created_on>2020-10-30 16:55:43</sys_created_on>
-                        <sys_id>5d04636b2f8c2410f0e69bacf699b6dc</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>sean</sys_updated_by>
-                        <sys_updated_on>2020-10-30 16:55:43</sys_updated_on>
-                        <value>false</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>can_real_time</name>
-                        <portal_section display_value="Created 2020-10-30 12:55:43 PM">5104636b2f8c2410f0e69bacf699b6db</portal_section>
-                        <sys_created_by>sean</sys_created_by>
-                        <sys_created_on>2020-10-30 16:55:43</sys_created_on>
-                        <sys_id>9d04636b2f8c2410f0e69bacf699b6db</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>sean</sys_updated_by>
-                        <sys_updated_on>2020-10-30 16:55:43</sys_updated_on>
-                        <value>true</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>sys_id</name>
-                        <portal_section display_value="Created 2020-10-30 12:55:43 PM">5104636b2f8c2410f0e69bacf699b6db</portal_section>
-                        <sys_created_by>sean</sys_created_by>
-                        <sys_created_on>2020-10-30 16:55:43</sys_created_on>
-                        <sys_id>d104636b2f8c2410f0e69bacf699b6db</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>sean</sys_updated_by>
-                        <sys_updated_on>2020-10-30 16:55:43</sys_updated_on>
-                        <value>a5b3636b2f8c2410f0e69bacf699b6aa</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>title</name>
-                        <portal_section display_value="Created 2020-10-30 12:55:43 PM">5104636b2f8c2410f0e69bacf699b6db</portal_section>
-                        <sys_created_by>sean</sys_created_by>
-                        <sys_created_on>2020-10-30 16:55:43</sys_created_on>
-                        <sys_id>d504636b2f8c2410f0e69bacf699b6dc</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>sean</sys_updated_by>
-                        <sys_updated_on>2020-10-30 16:55:43</sys_updated_on>
-                        <value>12 Months Rolling PTO - Total Hours</value>
-                    </sys_portal_preferences>
-                    <sys_portal_preferences action="INSERT_OR_UPDATE">
-                        <name>help_text_window</name>
-                        <portal_section display_value="Created 2020-10-30 12:55:43 PM">5104636b2f8c2410f0e69bacf699b6db</portal_section>
-                        <sys_created_by>sean</sys_created_by>
-                        <sys_created_on>2020-10-30 16:55:43</sys_created_on>
-                        <sys_id>d904636b2f8c2410f0e69bacf699b6db</sys_id>
-                        <sys_mod_count>0</sys_mod_count>
-                        <sys_updated_by>sean</sys_updated_by>
-                        <sys_updated_on>2020-10-30 16:55:43</sys_updated_on>
-                        <value>report_widget_description</value>
-                    </sys_portal_preferences>
-                </related_items_node>
-            </sys_portal>
-            <sys_portal action="INSERT_OR_UPDATE">
-                <dropzone/>
-                <offset/>
-                <page display_value="PA History">a2fe84272f1f5890f0e69bacf699b655</page>
                 <summary>Monthly Hours</summary>
                 <sys_created_by>sean</sys_created_by>
                 <sys_created_on>2020-10-30 16:39:04</sys_created_on>
@@ -472,6 +370,86 @@
                 <dropzone/>
                 <offset/>
                 <page display_value="PA History">a2fe84272f1f5890f0e69bacf699b655</page>
+                <summary>Recent Bonus Targets</summary>
+                <sys_created_by>sean</sys_created_by>
+                <sys_created_on>2021-08-03 15:03:48</sys_created_on>
+                <sys_id>a2cae9342f713010f0e69bacf699b62d</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>sean</sys_updated_by>
+                <sys_updated_on>2021-08-03 15:03:48</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-08-03 11:03:48 AM">a2cae9342f713010f0e69bacf699b62d</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-03 15:03:48</sys_created_on>
+                        <sys_id>2ecae9342f713010f0e69bacf699b62e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-03 15:03:48</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-08-03 11:03:48 AM">a2cae9342f713010f0e69bacf699b62d</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-03 15:03:48</sys_created_on>
+                        <sys_id>6acae9342f713010f0e69bacf699b62e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-03 15:03:48</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-08-03 11:03:48 AM">a2cae9342f713010f0e69bacf699b62d</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-03 15:03:48</sys_created_on>
+                        <sys_id>a2cae9342f713010f0e69bacf699b62f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-03 15:03:48</sys_updated_on>
+                        <value>Recent Bonus Targets</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-08-03 11:03:48 AM">a2cae9342f713010f0e69bacf699b62d</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-03 15:03:48</sys_created_on>
+                        <sys_id>a6cae9342f713010f0e69bacf699b62e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-03 15:03:48</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-08-03 11:03:48 AM">a2cae9342f713010f0e69bacf699b62d</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-03 15:03:48</sys_created_on>
+                        <sys_id>aacae9342f713010f0e69bacf699b62d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-03 15:03:48</sys_updated_on>
+                        <value>d8ba6d342f713010f0e69bacf699b65f</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-08-03 11:03:48 AM">a2cae9342f713010f0e69bacf699b62d</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-03 15:03:48</sys_created_on>
+                        <sys_id>eecae9342f713010f0e69bacf699b62e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-03 15:03:48</sys_updated_on>
+                        <value>list</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA History">a2fe84272f1f5890f0e69bacf699b655</page>
                 <summary>12 Months Rolling PTO</summary>
                 <sys_created_by>sean</sys_created_by>
                 <sys_created_on>2020-10-30 16:51:48</sys_created_on>
@@ -545,6 +523,108 @@
                         <sys_updated_by>sean</sys_updated_by>
                         <sys_updated_on>2020-10-30 16:51:48</sys_updated_on>
                         <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone/>
+                <offset/>
+                <page display_value="PA History">a2fe84272f1f5890f0e69bacf699b655</page>
+                <summary>PTO Days - Rolling 12 Months</summary>
+                <sys_created_by>sean</sys_created_by>
+                <sys_created_on>2021-08-04 15:28:20</sys_created_on>
+                <sys_id>dff972092f713010f0e69bacf699b6bb</sys_id>
+                <sys_mod_count>1</sys_mod_count>
+                <sys_updated_by>sean</sys_updated_by>
+                <sys_updated_on>2021-08-04 15:28:20</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>report_type</name>
+                        <portal_section display_value="Created 2021-08-04 11:28:20 AM">dff972092f713010f0e69bacf699b6bb</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-04 15:28:20</sys_created_on>
+                        <sys_id>23f972092f713010f0e69bacf699b6be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-04 15:28:20</sys_updated_on>
+                        <value>single_score</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2021-08-04 11:28:20 AM">dff972092f713010f0e69bacf699b6bb</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-04 15:28:20</sys_created_on>
+                        <sys_id>27f972092f713010f0e69bacf699b6bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-04 15:28:20</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2021-08-04 11:28:20 AM">dff972092f713010f0e69bacf699b6bb</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-04 15:28:20</sys_created_on>
+                        <sys_id>6ff972092f713010f0e69bacf699b6bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-04 15:28:20</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2021-08-04 11:28:20 AM">dff972092f713010f0e69bacf699b6bb</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-04 15:28:20</sys_created_on>
+                        <sys_id>abf972092f713010f0e69bacf699b6bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-04 15:28:20</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2021-08-04 11:28:20 AM">dff972092f713010f0e69bacf699b6bb</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-04 15:28:20</sys_created_on>
+                        <sys_id>d7f972092f713010f0e69bacf699b6bc</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-04 15:28:20</sys_updated_on>
+                        <value>03e9f6c52f713010f0e69bacf699b6be</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2021-08-04 11:28:20 AM">dff972092f713010f0e69bacf699b6bb</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-04 15:28:20</sys_created_on>
+                        <sys_id>e3f972092f713010f0e69bacf699b6be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-04 15:28:20</sys_updated_on>
+                        <value>PTO Days - Rolling 12 Months</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2021-08-04 11:28:20 AM">dff972092f713010f0e69bacf699b6bb</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-04 15:28:20</sys_created_on>
+                        <sys_id>e7f972092f713010f0e69bacf699b6bd</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-04 15:28:20</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>is_using_database_view</name>
+                        <portal_section display_value="Created 2021-08-04 11:28:20 AM">dff972092f713010f0e69bacf699b6bb</portal_section>
+                        <sys_created_by>sean</sys_created_by>
+                        <sys_created_on>2021-08-04 15:28:20</sys_created_on>
+                        <sys_id>eff972092f713010f0e69bacf699b6be</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>sean</sys_updated_by>
+                        <sys_updated_on>2021-08-04 15:28:20</sys_updated_on>
+                        <value>false</value>
                     </sys_portal_preferences>
                 </related_items_node>
             </sys_portal>
