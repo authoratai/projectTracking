@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Project" max_length="40" name="x_441625_prj_track_project" sizeclass="19" type="collection">
+    <element db_object_id="950bd71f2f8d1850f0e69bacf699b66e" label="Project" max_length="40" name="x_441625_prj_track_project" type="collection">
         <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Available hours" max_length="20" name="available_hours" type="decimal"/>
         <element default="true" label="Billable" max_length="40" name="billable" type="boolean"/>
+        <element label="Burndown tracking" max_length="40" name="burndown_tracking" type="boolean"/>
         <element label="Code" max_length="15" name="code" type="string"/>
         <element label="Customer" max_length="32" name="customer" reference="x_441625_prj_track_customer" type="reference"/>
         <element display="true" label="Display name" max_length="150" name="display_name" type="string"/>
+        <element label="Hours worked" max_length="20" name="hours_worked" type="decimal"/>
+        <element attributes="target_field=percent_complete_target,target_threshold_colors=0:#00A000;40:lightgreen;50:khaki;60:#FFFF66;70:#FF9900;85:tomato;100:maroon" calculation="(function calculatedFieldValue(current) {&#13;&#10;&#13;&#10;&#9;var startHrs = current.available_hours;&#13;&#10;&#9;var pct = 0;&#13;&#10;&#9;var tw = 0;&#13;&#10;&#9;var grTw = new GlideRecord('x_441625_prj_track_time_worked');&#13;&#10;&#9;grTw.addQuery('project',current.sys_id);&#13;&#10;&#9;grTw.query();&#13;&#10;&#9;while (grTw.next()) {&#13;&#10;&#9;&#9;tw = tw + grTw.hours;&#13;&#10;&#9;}&#13;&#10;&#9;pct = (tw * 100) / startHrs;&#13;&#10;&#9;return pct;&#13;&#10;&#13;&#10;})(current);" label="Burned hours percentage" max_length="15" name="remaining_hours" type="percent_complete" virtual="true"/>
         <element label="Title" max_length="100" name="title" type="string"/>
         <index name="index">
             <element name="customer"/>

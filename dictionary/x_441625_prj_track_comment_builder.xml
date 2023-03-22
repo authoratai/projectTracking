@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="d92fde50971bc910c8bcf97e6253aff5" label="Comment Builder" max_length="40" name="x_441625_prj_track_comment_builder" type="collection">
+        <element label="Comment" max_length="150" name="comment" type="string"/>
+        <element default="javascript: new GlideDateTime().getDate();" label="Date" max_length="40" name="date" type="glide_date"/>
+        <element choice="1" dependent="role" dependent_on_field="role" label="Notes" max_length="40" name="notes" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="arch" inactive_on_update="false" label="Participated in Internal Knowledge Project Transition (IKPT) Meeting" sequence="10" value="Participated in Internal Knowledge Project Transition (IKPT) Meeting"/>
+                <element dependent_value="arch" inactive_on_update="false" label="Participated in Project Kickoff Meeting" sequence="20" value="Participated in Project Kickoff Meeting"/>
+                <element dependent_value="arch" inactive_on_update="false" label="Attended workshop meetings and helped gather requirements" sequence="30" value="Attended workshop meetings and helped gather requirements"/>
+                <element dependent_value="arch" inactive_on_update="false" label="Designed solution architecture" sequence="40" value="Designed solution architecture"/>
+                <element dependent_value="arch" inactive_on_update="false" label="Estimated story points and recommended sprints" sequence="50" value="Estimated story points and recommended sprints"/>
+                <element dependent_value="arch" inactive_on_update="false" label="Participated in project standup meetings to monitor work completion and remove development blockers" sequence="60" value="Participated in project standup meetings to monitor work completion and remove development blockers"/>
+                <element dependent_value="arch" inactive_on_update="false" label="Developed &lt;XYZ&gt; deliverable in SOW" sequence="70" value="Developed &lt;XYZ&gt; deliverable in SOW"/>
+                <element dependent_value="arch" inactive_on_update="false" label="Provided guidance to development team on &lt;XYZ&gt; story" sequence="80" value="Provided guidance to development team on &lt;XYZ&gt; story"/>
+                <element dependent_value="dev" inactive_on_update="false" label="Participated in Internal Knowledge Project Transition (IKPT) Meeting" sequence="100" value="Participated in Internal Knowledge Project Transition (IKPT) Meeting"/>
+                <element dependent_value="dev" inactive_on_update="false" label="Participated in Project Kickoff Meeting" sequence="110" value="Participated in Project Kickoff Meeting"/>
+                <element dependent_value="dev" inactive_on_update="false" label="Attended workshop meetings and helped gather requirements" sequence="120" value="Attended workshop meetings and helped gather requirements"/>
+                <element dependent_value="dev" inactive_on_update="false" label="Participated in project standup meetings to provide status and report blockers" sequence="130" value="Participated in project standup meetings to provide status and report blockers"/>
+                <element dependent_value="dev" inactive_on_update="false" label="Developed &lt;XYZ&gt; stories" sequence="140" value="Developed &lt;XYZ&gt; stories"/>
+                <element dependent_value="dev" inactive_on_update="false" label="Worked on data migration tasks" sequence="150" value="Worked on data migration tasks"/>
+                <element dependent_value="dev" inactive_on_update="false" label="Completed core configuration" sequence="160" value="Completed core configuration"/>
+                <element dependent_value="dev" inactive_on_update="false" label="Conducted unit testing for &lt;XYZ&gt; story(ies)" sequence="180" value="Conducted unit testing for &lt;XYZ&gt; story(ies)"/>
+                <element dependent_value="dev" inactive_on_update="false" label="Conducted sprint demo dry run" sequence="190" value="Conducted sprint demo dry run"/>
+                <element dependent_value="dev" inactive_on_update="false" label="Facilitated sprint demo for &lt;XYZ&gt; stories" sequence="200" value="Facilitated sprint demo for &lt;XYZ&gt; stories"/>
+                <element dependent_value="dev" inactive_on_update="false" label="Fixed &lt;XYZ&gt; defect" sequence="210" value="Fixed &lt;XYZ&gt; defect"/>
+            </choice>
+        </element>
+        <element choice="1" label="Role" max_length="40" name="role" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Arch" sequence="10" value="arch"/>
+                <element inactive_on_update="false" label="Dev" sequence="20" value="dev"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-21 13:41:24</sys_created_on>
-            <sys_id>d04856012ffa1410f0e69bacf699b6fc</sys_id>
+            <sys_created_on>2022-06-13 14:41:05</sys_created_on>
+            <sys_id>9bc8a23997085510c8bcf97e6253af2a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_project" sys_domain="global" view="Default view">e3df5f932fcd1850f0e69bacf699b6c0</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-21 13:41:24</sys_updated_on>
+            <sys_updated_on>2022-06-13 14:41:05</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>customer</element>
             <position>1</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-21 13:41:24</sys_created_on>
-            <sys_id>984856012ffa1410f0e69bacf699b6fc</sys_id>
+            <sys_created_on>2022-06-13 14:41:05</sys_created_on>
+            <sys_id>13c8a23997085510c8bcf97e6253af2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_project" sys_domain="global" view="Default view">e3df5f932fcd1850f0e69bacf699b6c0</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-21 13:41:24</sys_updated_on>
+            <sys_updated_on>2022-06-13 14:41:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>title</element>
             <position>2</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-21 13:41:24</sys_created_on>
-            <sys_id>1c4856012ffa1410f0e69bacf699b6fc</sys_id>
+            <sys_created_on>2022-06-13 14:41:05</sys_created_on>
+            <sys_id>93c8a23997085510c8bcf97e6253af2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_project" sys_domain="global" view="Default view">e3df5f932fcd1850f0e69bacf699b6c0</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-21 13:41:24</sys_updated_on>
+            <sys_updated_on>2022-06-13 14:41:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>code</element>
             <position>3</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-21 13:41:24</sys_created_on>
-            <sys_id>9c4856012ffa1410f0e69bacf699b6fc</sys_id>
+            <sys_created_on>2022-06-13 14:41:05</sys_created_on>
+            <sys_id>17c8a23997085510c8bcf97e6253af2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_project" sys_domain="global" view="Default view">e3df5f932fcd1850f0e69bacf699b6c0</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-21 13:41:24</sys_updated_on>
+            <sys_updated_on>2022-06-13 14:41:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>billable</element>
             <position>4</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-21 13:41:24</sys_created_on>
-            <sys_id>104856012ffa1410f0e69bacf699b6fd</sys_id>
+            <sys_created_on>2022-06-13 14:41:05</sys_created_on>
+            <sys_id>97c8a23997085510c8bcf97e6253af2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_project" sys_domain="global" view="Default view">e3df5f932fcd1850f0e69bacf699b6c0</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-21 13:41:24</sys_updated_on>
+            <sys_updated_on>2022-06-13 14:41:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>.split</element>
             <position>5</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-21 13:41:24</sys_created_on>
-            <sys_id>904856012ffa1410f0e69bacf699b6fd</sys_id>
+            <sys_created_on>2022-06-13 14:41:05</sys_created_on>
+            <sys_id>1bc8a23997085510c8bcf97e6253af2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_project" sys_domain="global" view="Default view">e3df5f932fcd1850f0e69bacf699b6c0</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-21 13:41:24</sys_updated_on>
+            <sys_updated_on>2022-06-13 14:41:05</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>display_name</element>
             <position>6</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-21 13:41:24</sys_created_on>
-            <sys_id>144856012ffa1410f0e69bacf699b6fd</sys_id>
+            <sys_created_on>2022-06-13 14:41:05</sys_created_on>
+            <sys_id>9bc8a23997085510c8bcf97e6253af2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_project" sys_domain="global" view="Default view">e3df5f932fcd1850f0e69bacf699b6c0</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-21 13:41:24</sys_updated_on>
+            <sys_updated_on>2022-06-13 14:41:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -102,27 +102,69 @@
             <element>active</element>
             <position>7</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-21 13:41:24</sys_created_on>
-            <sys_id>944856012ffa1410f0e69bacf699b6fd</sys_id>
+            <sys_created_on>2022-06-13 14:41:05</sys_created_on>
+            <sys_id>1fc8a23997085510c8bcf97e6253af2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_project" sys_domain="global" view="Default view">e3df5f932fcd1850f0e69bacf699b6c0</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-21 13:41:24</sys_updated_on>
+            <sys_updated_on>2022-06-13 14:41:05</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>.end_split</element>
+            <element>burndown_tracking</element>
             <position>8</position>
             <sys_created_by>sean</sys_created_by>
-            <sys_created_on>2020-08-21 13:41:24</sys_created_on>
-            <sys_id>184856012ffa1410f0e69bacf699b6fd</sys_id>
+            <sys_created_on>2022-06-13 14:41:05</sys_created_on>
+            <sys_id>9fc8a23997085510c8bcf97e6253af2b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_project" sys_domain="global" view="Default view">e3df5f932fcd1850f0e69bacf699b6c0</sys_ui_section>
             <sys_updated_by>sean</sys_updated_by>
-            <sys_updated_on>2020-08-21 13:41:24</sys_updated_on>
+            <sys_updated_on>2022-06-13 14:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>available_hours</element>
+            <position>9</position>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-06-13 14:41:05</sys_created_on>
+            <sys_id>13c8a23997085510c8bcf97e6253af2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_project" sys_domain="global" view="Default view">e3df5f932fcd1850f0e69bacf699b6c0</sys_ui_section>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-06-13 14:41:05</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_441625_prj_track_burndown_percentage.xml</element>
+            <position>10</position>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-06-13 14:41:05</sys_created_on>
+            <sys_id>93c8a23997085510c8bcf97e6253af2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Burndown percentage">67a8a2b597085510c8bcf97e6253afd6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_project" sys_domain="global" view="Default view">e3df5f932fcd1850f0e69bacf699b6c0</sys_ui_section>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-06-13 14:41:05</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-06-13 14:41:05</sys_created_on>
+            <sys_id>1bc8a23997085510c8bcf97e6253af2c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_441625_prj_track_project" sys_domain="global" view="Default view">e3df5f932fcd1850f0e69bacf699b6c0</sys_ui_section>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-06-13 14:41:05</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>

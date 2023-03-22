@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="hours_worked" label="Hours worked" language="en" table="x_441625_prj_track_project">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>hours_worked</element>
+            <help/>
+            <hint/>
+            <label>Hours worked</label>
+            <language>en</language>
+            <name>x_441625_prj_track_project</name>
+            <plural>Hours worked</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-06-02 17:08:14</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Hours worked</sys_name>
+            <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+            <sys_update_name>sys_documentation_x_441625_prj_track_project_hours_worked_en</sys_update_name>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-06-02 17:08:14</sys_updated_on>
+            <u_field_explanation/>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

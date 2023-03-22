@@ -1,22 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="comments" table="x_441625_prj_track_time_worked">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="remaining_hours" table="x_441625_prj_track_project">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>target_field=percent_complete_target,target_threshold_colors=0:#00A000;40:lightgreen;50:khaki;60:#FFFF66;70:#FF9900;85:tomato;100:maroon</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
-	// Add your code here
-	return '';  // return the calculated value
+	var startHrs = current.available_hours;
+	var pct = 0;
+	var tw = 0;
+	var grTw = new GlideRecord('x_441625_prj_track_time_worked');
+	grTw.addQuery('project',current.sys_id);
+	grTw.query();
+	while (grTw.next()) {
+		tw = tw + grTw.hours;
+	}
+	pct = (tw * 100) / startHrs;
+	return pct;
 
 })(current);]]></calculation>
         <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>Comments</column_label>
+        <column_label>Burned hours percentage</column_label>
         <comments/>
         <create_roles/>
-        <default_value>javascript:javascript: new GlideDate().getValue() + ' - ';</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -24,18 +33,18 @@
         <display>false</display>
         <dynamic_creation>false</dynamic_creation>
         <dynamic_creation_script/>
-        <dynamic_default_value display_value="Today's date">c8557c6a97999110c8bcf97e6253af5c</dynamic_default_value>
+        <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>comments</element>
+        <element>remaining_hours</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Journal">journal</internal_type>
+        <internal_type display_value="">percent_complete</internal_type>
         <mandatory>false</mandatory>
-        <max_length>4000</max_length>
-        <name>x_441625_prj_track_time_worked</name>
+        <max_length>15</max_length>
+        <name>x_441625_prj_track_project</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -51,21 +60,21 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>sean</sys_created_by>
-        <sys_created_on>2020-08-24 18:27:47</sys_created_on>
-        <sys_name>Comments</sys_name>
+        <sys_created_on>2022-06-13 14:11:27</sys_created_on>
+        <sys_name>Burned hours percentage</sys_name>
         <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
         <sys_policy/>
         <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
-        <sys_update_name>sys_dictionary_x_441625_prj_track_time_worked_comments</sys_update_name>
+        <sys_update_name>sys_dictionary_x_441625_prj_track_project_remaining_hours</sys_update_name>
         <sys_updated_by>sean</sys_updated_by>
-        <sys_updated_on>2022-08-16 17:31:03</sys_updated_on>
+        <sys_updated_on>2022-06-13 14:53:19</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
-        <use_dynamic_default>true</use_dynamic_default>
+        <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>

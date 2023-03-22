@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Time Worked" max_length="40" name="x_441625_prj_track_time_worked" sizeclass="596" type="collection">
+    <element db_object_id="1aad53132fcd1850f0e69bacf699b63b" label="Time Worked" max_length="40" name="x_441625_prj_track_time_worked" type="collection">
         <element label="Billable" max_length="40" name="billable" type="boolean"/>
-        <element label="Comments" max_length="4000" name="comments" type="journal"/>
+        <element label="Comment" max_length="260" name="comment" type="string"/>
+        <element default="javascript:javascript: new GlideDate().getValue() + ' - ';" dynamic_default_value="c8557c6a97999110c8bcf97e6253af5c" label="Comments" max_length="4000" name="comments" type="journal" use_dynamic_default="true"/>
         <element default="javascript: new GlideDate();" label="Date" max_length="40" name="date" type="glide_date"/>
         <element choice="1" label="Day" max_length="40" name="day" type="choice">
             <choice>

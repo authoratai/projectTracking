@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="notes" table="x_441625_prj_track_comment_builder" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>notes</element>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:17:39</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>notes</sys_name>
+            <sys_package display_value="Project Tracking" source="x_441625_prj_track">f2b95f9f2fc91850f0e69bacf699b606</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Project Tracking">f2b95f9f2fc91850f0e69bacf699b606</sys_scope>
+            <sys_update_name>sys_choice_x_441625_prj_track_comment_builder_notes</sys_update_name>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:17:39</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arch</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Participated in Internal Knowledge Project Transition (IKPT) Meeting</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>10</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:17:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:17:39</sys_updated_on>
+            <value>Participated in Internal Knowledge Project Transition (IKPT) Meeting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arch</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Participated in Project Kickoff Meeting</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>20</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:17:58</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:17:58</sys_updated_on>
+            <value>Participated in Project Kickoff Meeting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arch</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Attended workshop meetings and helped gather requirements</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>30</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:18:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:18:16</sys_updated_on>
+            <value>Attended workshop meetings and helped gather requirements</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arch</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Designed solution architecture</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>40</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:18:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:18:30</sys_updated_on>
+            <value>Designed solution architecture</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arch</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Estimated story points and recommended sprints</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>50</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:18:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:18:44</sys_updated_on>
+            <value>Estimated story points and recommended sprints</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arch</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Participated in project standup meetings to monitor work completion and remove development blockers</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>60</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:18:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:18:59</sys_updated_on>
+            <value>Participated in project standup meetings to monitor work completion and remove development blockers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arch</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Developed &lt;XYZ&gt; deliverable in SOW</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>70</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:19:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:19:45</sys_updated_on>
+            <value>Developed &lt;XYZ&gt; deliverable in SOW</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>arch</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Provided guidance to development team on &lt;XYZ&gt; story</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>80</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:20:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:20:13</sys_updated_on>
+            <value>Provided guidance to development team on &lt;XYZ&gt; story</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dev</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Participated in Internal Knowledge Project Transition (IKPT) Meeting</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>100</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:20:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:20:54</sys_updated_on>
+            <value>Participated in Internal Knowledge Project Transition (IKPT) Meeting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dev</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Participated in Project Kickoff Meeting</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>110</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:21:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:21:07</sys_updated_on>
+            <value>Participated in Project Kickoff Meeting</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dev</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Attended workshop meetings and helped gather requirements</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>120</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:21:30</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:21:30</sys_updated_on>
+            <value>Attended workshop meetings and helped gather requirements</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dev</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Participated in project standup meetings to provide status and report blockers</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>130</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:21:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:21:45</sys_updated_on>
+            <value>Participated in project standup meetings to provide status and report blockers</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dev</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Developed &lt;XYZ&gt; stories</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>140</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:22:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:22:08</sys_updated_on>
+            <value>Developed &lt;XYZ&gt; stories</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dev</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Worked on data migration tasks</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>150</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:22:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:22:15</sys_updated_on>
+            <value>Worked on data migration tasks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dev</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Completed core configuration</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>160</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:22:28</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:22:28</sys_updated_on>
+            <value>Completed core configuration</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dev</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conducted unit testing for &lt;XYZ&gt; story(ies)</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>180</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:23:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:23:11</sys_updated_on>
+            <value>Conducted unit testing for &lt;XYZ&gt; story(ies)</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dev</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Conducted sprint demo dry run</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>190</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:23:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:23:38</sys_updated_on>
+            <value>Conducted sprint demo dry run</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dev</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Facilitated sprint demo for &lt;XYZ&gt; stories</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>200</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:23:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:23:52</sys_updated_on>
+            <value>Facilitated sprint demo for &lt;XYZ&gt; stories</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>dev</dependent_value>
+            <element>notes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fixed &lt;XYZ&gt; defect</label>
+            <language>en</language>
+            <name>x_441625_prj_track_comment_builder</name>
+            <sequence>210</sequence>
+            <synonyms/>
+            <sys_created_by>sean</sys_created_by>
+            <sys_created_on>2022-05-02 16:24:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>sean</sys_updated_by>
+            <sys_updated_on>2022-05-02 16:24:06</sys_updated_on>
+            <value>Fixed &lt;XYZ&gt; defect</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>
